@@ -76,7 +76,7 @@ df.loc[df["embarked"] != "S"]
 #########################################
 
 df.loc[(df["age"] < 30) & (df["sex"] == "female")]
-df.query("age < 30 & sex == 'female'")  # another approach
+#df.query("age < 30 & sex == 'female'")
 
 #########################################
 # Görev 10: Fare'i 500'den büyük veya yaşı 70 den büyük yolcuların bilgilerini gösteriniz.
